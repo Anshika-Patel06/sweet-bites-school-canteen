@@ -1,0 +1,100 @@
+body {
+    background-color : lavenderblush;
+    color : purple;
+    font-family : Arial , sans-serif;
+    text-align: center;
+    margin : 25px
+}
+
+h1{
+    color: palevioletred;
+    font-size: 40px;
+    margin-bottom :5px;
+}
+
+.subtitle {
+    color:rosybrown;
+    margin-bottom: 30px
+}
+
+.welcome{
+    background-color:pink;
+    border: 2px solid lightpink;
+    border-radius : 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width : 500px;
+}
+
+.welcome h2 {
+    color: deeppink
+}
+
+.heading{
+    color : mediumvioletred;
+    margin-top : 30px;
+
+}
+
+.menu-box{
+    background-color: white;
+    border: 2px solide thistle;
+    border-radius : 20px;
+    padding: 25px;
+    margin: 20px auto ;
+    max-width : 400 px;
+}
+
+select{
+    background-color:lavender;
+    color:purple;
+    border: 1px solid plum;
+    border-radius : 10 px;
+    margin: 10px;
+}
+
+button {
+    background-color:palevioletred;
+    color: white;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    margin-top:25px;
+}
+
+button hover {
+    background-color: multivioletred;
+}
+
+#menu p{
+    background-color:snow;
+    border-radius : 15px;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+#menu h3 {
+    color: mediumvioletred
+}
+
+#menu p {
+     background-color: lavendurblush;
+    border-radius : 10px;
+    padding: 12px;
+    
+}
+
+.timing {
+     background-color:lavender;
+    border-radius : 18px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width : 400px;
+}
+
+
+footer{
+    color : rosybrown;
+    margin-top:30px;
+    padding : 15px
+}

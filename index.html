@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Bite - School Canteen Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    function ShowMenu() {
+        // hide all menus
+        document.querySelectorAll(".menu").forEach(function (m) {
+            m.style.display = "none";
+        });
+
+        // show the selected day's menu
+        var day = document.getElementById("day").value;
+        document.getElementById(day).style.display = "block";
+    }
+</script>
+
+<body>
+    <h1>Sweet Bites 🍰</h1>
+    <p class="subtitle"> Our little school canteen ♡</p>
+    <div class="Welcome">
+        <h2> Good Food , Happy Mood ! </h2>
+        <p> Fresh meals made with love.</p>
+    </div>
+    <h2 class="heading"> Weekly Menu 🍴</h2>
+    <div class="menu-box">
+        <label for="day">Choose a day: </label>
+        <select id="day">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday"> Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+        </select>
+
+        <button onclick="ShowMenu()">View Menu✨</button>
+
+        <div class ="menu" id = "Monday">
+            <h3>Monday's Menu🌸</h3>
+            <p>🥪 Veg Sandwich - ₹40</p>
+            <p>🍜Veg Noodles - ₹50</p>
+            <p>🍹Cold Coffee - ₹ 50</p>
+        </div>
+    </div>
+    <div class="menu" id = "Tuesday">
+        <h3> Tuesday's Menu 🌻</h3>
+        <p>🍚Poha - ₹30</p>
+        <p> 🍝Pasta - ₹70</p>
+        <p>🥤Fruit Juice - ₹50</p>
+    </div>
+
+    <div class="menu" id = "Wednesday">
+        <h3>Wednesday's Menu🪷</h3>
+        <p> 🫔Rolls - ₹50</p>
+        <p> 🍰 Pastery -₹60</p>
+        <p> 🍔Veg Burger - ₹80</p>
+    </div>
+
+    <div class="menu" id = "Thursday">
+        <h3>Thursday's Menu🌷</h3>
+        <p>🥤Juices - ₹40</p>
+        <p>🌮Dosa - ₹50</p>
+        <p>🥪Veg sandwich -₹50</p>
+    </div>
+
+    <div class="menu" id ="Friday">
+        <h3>Friday's Menu🌸</h3>
+        <p> 🌮Masala Dosa -₹60</p>
+        <p>🍜Noodle - ₹50</p>
+        <p>🧋chocolate shake - ₹70</p>
+    </div>
+
+    <div class ="menu" id = "Saturday">
+        <h3>Saturday's Menu🌸</h3>
+        <p> 🌮Rolls -₹60</p>
+        <p>🍜Noodle - ₹50</p>
+        <p>🍕Pizza- ₹90</p>
+    </div>
+    <div class="timing">
+        <h3>⏰ Canteen Timings</h3>
+        <p>9:00 AM - 3:00 PM</p>
+    </div>
+    <footer>
+        Made with love ♡| Sweet Bites
+    </footer>
+
+
+</body>
+
+</html>
