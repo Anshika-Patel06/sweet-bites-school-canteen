@@ -38,18 +38,18 @@ h1{
 
 .menu-box{
     background-color: white;
-    border: 2px solide thistle;
+    border: 2px solid thistle;
     border-radius : 20px;
     padding: 25px;
     margin: 20px auto ;
-    max-width : 400 px;
+    max-width : 400px;
 }
 
 select{
     background-color:lavender;
     color:purple;
     border: 1px solid plum;
-    border-radius : 10 px;
+    border-radius : 10px;
     margin: 10px;
 }
 
@@ -62,7 +62,7 @@ button {
     margin-top:25px;
 }
 
-button hover {
+button: hover {
     background-color: multivioletred;
 }
 
@@ -73,12 +73,15 @@ button hover {
     margin-top: 25px;
 }
 
+.menu {
+    display: none;
+}
 #menu h3 {
     color: mediumvioletred
 }
 
 #menu p {
-     background-color: lavendurblush;
+     background-color: lavenderblush;
     border-radius : 10px;
     padding: 12px;
     
